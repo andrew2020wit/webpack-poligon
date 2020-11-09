@@ -34,6 +34,10 @@ module.exports = {
       { test: /\.css$/, use: ["style-loader", "css-loader"] },
       { test: /\.(png|jpeg|svg|gif)$/, use: ["file-loader"] },
       { test: /\.(ttf|woff|woff2|eot)$/, use: ["file-loader"] },
+      {
+        test: /\.s[ca]ss$/,
+        use: ["style-loader", "css-loader", "sass-loader"],
+      },
     ],
   },
   devServer: {
