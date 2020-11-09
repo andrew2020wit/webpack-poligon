@@ -27,4 +27,8 @@ module.exports = {
       { test: /\.(ttf|woff|woff2|eot)$/, use: ["file-loader"] },
     ],
   },
+  devServer: {
+    contentBase: path.join(__dirname, "dist"),
+    port: 9000,
+  },
 };
