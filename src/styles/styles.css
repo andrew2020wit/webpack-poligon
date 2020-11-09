@@ -2,7 +2,7 @@ h1 {
   color: red;
 }
 body {
-  background-image: url("../assets/webpack.png");
+  /* background-image: url("../assets/webpack.png");
   background-repeat: no-repeat;
-  background-position-y: bottom;
+  background-position-y: bottom; */
 }
