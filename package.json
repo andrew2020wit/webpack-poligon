@@ -1,7 +1,7 @@
 {
   "name": "webpack-poligon",
   "version": "1.0.0",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "webpack": "webpack"
   },

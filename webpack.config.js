@@ -15,6 +15,7 @@ module.exports = {
     extensions: [".js", ".json"],
     alias: { "@styles": path.resolve(__dirname, "src/styles/") },
   },
+  optimization: { splitChunks: { chunks: "all" } },
   plugins: [
     new HTMLWebpackPlugin({ template: "./index.html" }),
     new CleanWebpackPlugin(),
